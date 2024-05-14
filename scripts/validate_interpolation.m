@@ -42,4 +42,4 @@ figure;
 boxplot(meanErrors, 'Labels', methods);
 title('Comparison of Interpolation Methods With Gauri Data');
 xlabel('Interpolation Method');
-ylabel('Mean Error');
+ylabel('Mean Thickness Error (mm)');
