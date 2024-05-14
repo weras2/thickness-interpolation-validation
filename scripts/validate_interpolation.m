@@ -1,4 +1,4 @@
-load("data/GauriData.mat") % Load your data
+load("../data/GauriData.mat") % Load your data
 methods = {'linear', 'natural', 'cubic', 'v4', 'nearest'}; % List of interpolation methods to compare
 numMethods = length(methods);
 numRuns = 100; % Number of runs for averaging
