@@ -40,6 +40,6 @@ end
 % Plotting the results as box plots
 figure;
 boxplot(meanErrors, 'Labels', methods);
-title('Comparison of Interpolation Methods');
+title('Comparison of Interpolation Methods With Gauri Data');
 xlabel('Interpolation Method');
 ylabel('Mean Error');
