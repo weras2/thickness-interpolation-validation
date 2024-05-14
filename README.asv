@@ -1,0 +1,18 @@
+# Interpolation Method Comparison for Spatially Resolved Thickness Experiments
+
+## Project Overview
+
+This project aims to evaluate and compare different interpolation methods used in spatially resolved thickness experiments. The script performs multiple runs to average the errors for each interpolation method, providing a statistical comparison of their performance.
+
+## Data
+
+The data used in this project is stored in MAT files. This file contains the following variables:
+- `x`: X-coordinates of the data points.
+- `y`: Y-coordinates of the data points.
+- `thick`: Thickness values at the data points.
+
+## Script Description
+
+The script essentially takes some of the input thickness data and performs different interpolation methods. The interpolated values are compared with data that was not used to interpolate (the ground truth). The image below shows the results 
+
+![results](results/x.png)
